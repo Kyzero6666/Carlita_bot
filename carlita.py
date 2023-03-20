@@ -36,7 +36,7 @@ cache = None
 qcache = None
 chat_log = None
 botname = 'Carlita Ky'
-username = 'Sweet_Sweet_Carlita_bot'
+username = 'Sweet_Carlita_bot'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
 
