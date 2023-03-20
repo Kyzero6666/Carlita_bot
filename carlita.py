@@ -15,7 +15,7 @@ print(aienv)
 #Telegram bot key
 tgenv = os.getenv('TELEGRAM_KEY')
 if tgenv == None:
-    tgkey = "6295991904:AAEozakJvciFZpqeGb4N3Ir1usEiuRTL1wE"
+    tgkey = "6162803683:AAEPGy1Y9VDvxUaRiFrpi-nnKKw1wmfg0sM"
 else:
     tgkey = tgenv
 print(tgenv)
@@ -35,8 +35,8 @@ running = False
 cache = None
 qcache = None
 chat_log = None
-botname = 'Carlita_Ky'
-username = 'Sweet_Carlita_bot'
+botname = 'cargipt'
+username = 'cargiptbot'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
 
@@ -66,8 +66,8 @@ def start(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Carlita_Ky'
-        username = 'Sweet_Carlita_bot'
+        botname = 'cargipt'
+        username = 'cargiptbot'
         update.message.reply_text('Hi')
         return 
     else:
@@ -93,16 +93,16 @@ def reset(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Carlita_Ky'
-        username = 'Sweet_Carlita_bot'
+        botname = 'cargipt'
+        username = 'cargiptbot'
         update.message.reply_text('Bot has been reset, send a message!')
         return
     if tim == 1:
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Carlita_Ky'
-        username = 'Sweet_Carlita_bot'
+        botname = 'cargipt'
+        username = 'cargiptbot'
         update.message.reply_text('Bot has been reset, send a message!')
         return 
     else:
@@ -128,8 +128,8 @@ def retry(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Carlita_Ky'
-        username = 'Sweet_Carlita_bot'
+        botname = 'cargipt'
+        username = 'cargiptbot'
         update.message.reply_text('Send a message!')
         return 
     else:
@@ -189,8 +189,8 @@ def wait(bot, update, botname, username, new):
                 cache = None
                 qcache = None
                 user = ""
-                username = 'Sweet_Carlita_bot'
-                botname = 'Carlita_Ky'
+                username = 'cargiptbot'
+                botname = 'cargipt'
                 update.message.reply_text('Timer has run down, bot has been reset to defaults.')
                 running = False
     else:
