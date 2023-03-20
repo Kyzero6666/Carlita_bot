@@ -36,7 +36,7 @@ cache = None
 qcache = None
 chat_log = None
 botname = 'Carlita Ky'
-username = 'Carlita_bot'
+username = 'Sweet_Sweet_Carlita_bot'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
 
@@ -67,7 +67,7 @@ def start(bot, update):
         cache = None
         qcache = None
         botname = 'Carlita Ky'
-        username = 'Carlita_bot'
+        username = 'Sweet_Carlita_bot'
         update.message.reply_text('Hi')
         return 
     else:
@@ -94,7 +94,7 @@ def reset(bot, update):
         cache = None
         qcache = None
         botname = 'Carlita Ky'
-        username = 'Carlita_bot'
+        username = 'Sweet_Carlita_bot'
         update.message.reply_text('Bot has been reset, send a message!')
         return
     if tim == 1:
@@ -102,7 +102,7 @@ def reset(bot, update):
         cache = None
         qcache = None
         botname = 'Carlita Ky'
-        username = 'Carlita_bot'
+        username = 'Sweet_Carlita_bot'
         update.message.reply_text('Bot has been reset, send a message!')
         return 
     else:
@@ -129,7 +129,7 @@ def retry(bot, update):
         cache = None
         qcache = None
         botname = 'Carlita Ky'
-        username = 'Carlita_bot'
+        username = 'Sweet_Carlita_bot'
         update.message.reply_text('Send a message!')
         return 
     else:
@@ -189,7 +189,7 @@ def wait(bot, update, botname, username, new):
                 cache = None
                 qcache = None
                 user = ""
-                username = 'Carlita_bot'
+                username = 'Sweet_Carlita_bot'
                 botname = 'Carlita Ky'
                 update.message.reply_text('Timer has run down, bot has been reset to defaults.')
                 running = False
