@@ -1,1 +1,1 @@
-worker: python3 cargipt.py
+worker python3 cargipt.py
